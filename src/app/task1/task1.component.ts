@@ -16,7 +16,7 @@ declare var data: any;
 	styleUrls: ['../shared/task-styles.css'],
 })
 export class Task1Component implements OnInit, AfterViewInit {
-	public taskData = data['Task1'];
+	public taskData = data['Label Prediction'];
 	public selector: any;
 
 	public activeElements: any = {};
